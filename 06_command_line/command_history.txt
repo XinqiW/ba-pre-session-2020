@@ -1,0 +1,184 @@
+ 2000  hello
+ 2002  pwd
+ 2003  ls
+ 2004  cd Desktop/
+ 2005  ls
+ 2006  cd ..
+ 2007  ls
+ 2009  ll
+ 2010  ls
+ 2011  cd ..
+ 2012  ls
+ 2013  cd media/
+ 2014  ll
+ 2015  cd kisso/
+ 2016  ll
+ 2017  ls
+ 2018  cd disk/
+ 2019  ls
+ 2020  cd ..
+ 2021  ls
+ 2022  cd
+ 2023  cd ../../media/
+ 2024  ls -al
+ 2025  cd .
+ 2026  cd
+ 2027  cd /media/
+ 2028  cd bin/
+ 2029  cd /bin/
+ 2030  cd
+ 2031  cd ../kisso/../kisso/../kisso/
+ 2032  cd ../../media/../bin/
+ 2033  cd
+ 2034  cd /bin/
+ 2035  cd
+ 2036  cd ../../bin/
+ 2037  cd
+ 2038  mkdir foo
+ 2039  ls
+ 2040  cd foo/
+ 2041  ls
+ 2042  echo "hello world"
+ 2043  echo "whatever"
+ 2044  echo "hello world" > baz.txt
+ 2045  ls
+ 2046  cd ..
+ 2047  ll Desktop/
+ 2048  cd Desktop/
+ 2049  ll
+ 2050  ls 
+ 2051  ls > list_of_my_files.txt
+ 2052  xdg-open list_of_my_files.txt 
+ 2053  cd
+ 2054  cd foo/
+ 2055  ll
+ 2056  echo "whatever" > baz.txt
+ 2057  xdg-open baz.txt 
+ 2058  echo "42" >> baz.txt 
+ 2059  xdg-open baz.txt 
+ 2060  echo "whatever 
+
+
+
+
+
+
+
+ls
+"
+ 2061  echo "whatever
+
+
+
+
+
+
+ 2062  ls
+ 2063  less baz.txt 
+ 2064  nano baz.txt 
+ 2065  echo "print('hello world)" > sg.py
+ 2066  ll
+ 2067  python3 sg.py 
+ 2068  nano sg.py 
+ 2069  python3 sg.py 
+ 2070  ls
+ 2071  rm sg.py 
+ 2072  ls
+ 2073  cp baz.txt baz2.txt
+ 2074  ls
+ 2075  man ls
+ 2076  ls -a
+ 2077  man ls
+ 2078  ls -l
+ 2079  history
+ 2080  history > my_history.txt
+ 2081  xdg-open my_history.txt 
+ 2082  grep ls my_history.txt 
+ 2084  history | grep ls
+ 2085  history | grep ls > commands_that_contain_ls.txt
+ 2086  history | grep ls | less
+ 2087  top
+ 2088  htop
+ 2090  vi
+ 2091  nano my_first_shell_script.sh
+ 2092  ls
+ 2093  sh my_first_shell_script.sh 
+ 2094  ls
+ 2095  cd bar/
+ 2096  ls
+ 2097  less bye.txt 
+ 2098  cd ..
+ 2099  ls
+ 2100  rm bar/
+ 2101  rm -r bar/
+ 2102  source my_first_shell_script.sh 
+ 2103  cd
+ 2105  git clone git://github.com/ceumicrodata/time-machine
+ 2106  git clone git://github.com/ceumicrodata/time-machine.git
+ 2107  git clone git://github.com/ceumicrodata/timemachine.git
+ 2108  ll
+ 2109  cd Documents/CMD/
+ 2110  ll
+ 2111  cd time-machine/
+ 2112  ll
+ 2113  git log
+ 2114  cd ..
+ 2115  cd
+ 2116  ls
+ 2117  cd
+ 2118  mkdir my_first_git_project
+ 2119  cd my_first_git_project/
+ 2120  git init
+ 2121  ls
+ 2122  ls -a
+ 2123  echo "dog" > cute.txt
+ 2124  ls
+ 2125  git status
+ 2126  git add cute.txt 
+ 2127  git status
+ 2128  git commit -m "add cute.txt to the repository with dog included in the cute animals list"
+ 2129  git status
+ 2130  git log
+ 2131  echo "blobfish" > ugly.txt
+ 2132  ls
+ 2133  git status
+ 2134  git add ugly.txt 
+ 2135  git status
+ 2136  git commit -m "add ugly.txt with blobfish in it"
+ 2137  git status
+ 2138  git log
+ 2139  cd .git/
+ 2140  ls
+ 2141  cd objects/
+ 2142  ls
+ 2143  git log
+ 2144  ls
+ 2145  cd d2/
+ 2146  ls
+ 2147  cd ..
+ 2148  ls
+ 2149  echo "panda" >> cute.txt 
+ 2150  echo "horse" >> cute.txt 
+ 2151  echo "cockroach" >> ugly.txt 
+ 2152  echo "crested gecko" > unclassified.txt
+ 2153  git status
+ 2154  git add cute.txt 
+ 2155  git status
+ 2156  git commit -m "add panda and horse to the list of cute animals"
+ 2157  git status
+ 2158  echo "slug" >> ugly.txt 
+ 2159  git status
+ 2160  git add ugly.txt 
+ 2161  git status
+ 2162  git commit -m "add cockroach and slug to the list of ugly animals"
+ 2163  git log
+ 2164  ls
+ 2165  git checkout c5c348342204634563da844d92144c04469b4ef2
+ 2166  ls
+ 2167  less cute.txt 
+ 2168  git checkout master
+ 2169  ls
+ 2170  git checkout c5c348342204634563da844d92144c04469b4ef2
+ 2171  git checkout master
+ 2172  history
+ 2173  history > ../Documents/my_history.txt 
